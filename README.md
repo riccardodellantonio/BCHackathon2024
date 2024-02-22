@@ -1,20 +1,56 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+<h1>BossCockpit Apps</h1>
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+Welcome to the BossCockpit suite of applications! This repository contains three projects designed to enhance and streamline various aspects of your business processes within Business Central.
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+- [Introduction](#introduction)
+- [BossCockpit1 - Meeting Analyzer](#bosscockpit1---meeting-analyzer)
+  - [Key Features:](#key-features)
+- [BossCockpit2 - Sales Quote Analyzer \& Item Recommender](#bosscockpit2---sales-quote-analyzer--item-recommender)
+  - [Key Features:](#key-features-1)
+- [BossCockpit3 - Sales Quote Email Proposal Generator](#bosscockpit3---sales-quote-email-proposal-generator)
+  - [Key Features:](#key-features-2)
+- [Contribution](#contribution)
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+## Introduction
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+This project, developed during the Microsoft AI Business Central Hackathon 2024, focuses on leveraging AI within Business Central. Our goal is to enhance sales processes by providing AI-driven solutions. The applications assist in suggesting items that align with customer preferences, facilitate effective email communication, and streamline meeting management by analyzing and summarizing transcripts. The AI autonomously identifies customers from transcripts, offering users convenient selections.
+
+## BossCockpit1 - Meeting Analyzer
+
+BossCockpit1 is an application that analyzes Teams meeting transcripts within Business Central. It identifies customers discussed in the meeting, checks for existing customer records, and summarizes the meeting details. The summary is then linked to the corresponding contact in the activity protocol.
+
+### Key Features:
+
+- Transcript Analysis: The application intelligently analyzes Teams meeting transcripts to identify key customer-related details.
+- Customer Check: BossCockpit1 cross-references the extracted information with existing customer records to check for duplicates or updates.
+- Meeting Summaries: Summarizes the discussions held during the meeting and stores them in the corresponding contact's activity documents in Business Central.
+
+## BossCockpit2 - Sales Quote Analyzer & Item Recommender
+
+BossCockpit2 focuses on analyzing sales quotes in Business Central. It suggests new items that complement the current list, allowing end users to select and add items to the list. This app is designed to enhance the sales quoting process.
+
+### Key Features:
+
+- Sales Quote Analysis: BossCockpit2 analyzes existing sales quotes to understand the context and current list of items.
+- Item Suggestions: The application suggests new items that complement the existing list, aiming to enhance the sales offering.
+- User Interaction: End users in Business Central can conveniently review and select suggested items to add to the sales quote.
+
+## BossCockpit3 - Sales Quote Email Proposal Generator
+
+BossCockpit3 extends the sales quote analysis capability to include the generation of email proposals. Similar to BossCockpit2, it suggests new items based on the current list, but it goes a step further by drafting an email proposal to send to the customer.
+
+### Key Features:
+
+- Sales Quote Analysis: Similar to BossCockpit2, BossCockpit3 analyzes sales quotes to understand the current list of items.
+- Item Suggestions: Suggests new items that align with the existing list, optimizing the sales offering.
+- Email Drafting: Uniquely, BossCockpit3 goes a step further by autonomously drafting persuasive emails to propose the newly suggested items to the customer.
+
+## Contribution
+
+This project was a collaborative effort by a dedicated team of three from [Bossinfo AG](https://www.bossinfo.com/) during the Microsoft AI Business Central Hackathon 2024. Our team worked together to explore and implement innovative AI solutions to enhance sales processes within Business Central. We welcome contributions, feedback, and ideas from the community to further improve and expand the capabilities of this project.
+
+- Riccardo
+- Mateusz
+- Tim
+
+!We have cooked!
