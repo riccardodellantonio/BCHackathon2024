@@ -14,6 +14,7 @@ Welcome to the BossCockpit suite of applications! This repository contains three
 ## Introduction
 
 This project, developed during the Microsoft AI Business Central Hackathon 2024, focuses on leveraging AI within Business Central. Our goal is to enhance sales processes by providing AI-driven solutions. The applications assist in suggesting items that align with customer preferences, facilitate effective email communication, and streamline meeting management by analyzing and summarizing transcripts. The AI autonomously identifies customers from transcripts, offering users convenient selections.
+For every solution, a short video is provided. In addition there is also a screenshot of a setup needed for the BossCockpit1 
 
 ## BossCockpit1 - Meeting Analyzer
 
