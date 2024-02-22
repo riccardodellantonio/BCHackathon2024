@@ -1,0 +1,49 @@
+{
+	"folders": [
+		{
+			"path": "BossCockpit1"
+		},
+		{
+			"path": "BossCockpit2"
+		},
+		{
+			"path": "BossCockpit3"
+		},
+		{
+			"path": "LearningMaterial"
+		},
+		{
+			"path": "Advanced_suggestjob_sourcecode"
+		},
+		{
+			"path": "Blog.BC-Copilot-Toolkit.Number-Series-Copilot-master"
+		}
+	],
+	"settings": {
+		"CRS.ObjectNamePrefix": "BOSS ",
+		"CRS.FileNamePattern": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+		"CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+		"CRS.FileNamePatternPageCustomizations": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+		"CRS.RemovePrefixFromFilename": false,
+		"CRS.OnSaveAlFileAction": "Rename",
+		"[al]": {
+			"editor.wordBasedSuggestions": "off",
+			"editor.suggestSelection": "first",
+			// set to false if editor performance is poor
+			"editor.formatOnSave": true,
+		},
+		"al.enableCodeAnalysis": true,
+		"al.backgroundCodeAnalysis": "Project",
+		"al.codeAnalyzers": [
+			// Uncomment if the application is intended for AppSource
+			//"${AppSourceCop}",
+			"${PerTenantExtensionCop}",
+			"${CodeCop}"
+		],
+		"al.ruleSetPath": "./../BC.Ruleset.json",
+		// set to false if editor performance is poor
+		"al.enableCodeActions": true,
+		"commentTranslate.targetLanguage": "en",
+		"commentTranslate.hover.enabled": true
+	}
+}

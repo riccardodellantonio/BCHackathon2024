@@ -1,0 +1,15 @@
+{
+    "name": "BC",
+    "description": "Rules",
+    "generalAction": "Hidden",
+    "rules": [
+        {"id": "AA0205","action": "Hidden",  "justification": "Use of unassigned variable" },
+        {"id": "AA0210","action": "Hidden",  "justification": "The table '{0}' does not contain a key with the field '{1}'" },
+        {"id": "AA0217","action": "Hidden",  "justification": "Use a text constant or label for format string in StrSubstNo." },
+        {"id": "AA0218","action": "Hidden",  "justification": "Tooltip information" },
+        {"id": "AA0232","action": "Hidden",  "justification": "Ignore Flowfield should be added to the sift key"},
+        {"id": "AA0470","action": "Hidden",  "justification": "Ignore placeholders w/o Comment"}, 
+        {"id": "AL0254","action": "Hidden",  "justification": "Sorting field '{0}' should be part of the keys for table '{1}'"}, 
+        {"id": "AS0092","action": "Hidden",  "justification": "Ignore Missing applicationInsightsConnectionString"}
+    ]
+}

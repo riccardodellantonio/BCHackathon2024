@@ -1,0 +1,39 @@
+{
+  "id": "b043d494-a991-48fd-a2f5-39bf81b3a6a1",
+  "name": "Boss Cockpit 2",
+  "publisher": "Boss Info AG",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+    {
+    "id": "a9c85ad7-c2fa-4776-9147-b302d5019b6c",
+    "name": "BossCockpit3",
+    "publisher": "Boss Info AG",
+    "version": "1.0.0.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "23.0.0.0",
+  "idRanges": [
+    {
+      "from": 50200,
+      "to": 50299
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "12.1",
+  "features": [
+    "NoImplicitWith"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "e622cb85-af21-4fe8-bb10-0b755ab418b3",
+  "name": "Boss Cockpit 1",
+  "publisher": "Boss Info AG",
+  "version": "1.0.0.1",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+    {
+      "name": "Number Series Copilot",
+      "id": "432bea76-017f-444f-91ad-ad9eb53e8cec",
+      "version": "1.0.0.0",
+      "publisher": "Katson.com"
+    }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "23.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50199
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "12.1",
+  "features": [
+    "NoImplicitWith"
+  ]
+}
