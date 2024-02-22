@@ -26,25 +26,25 @@ BossCockpit1 is an application that analyzes Teams meeting transcripts within Bu
 - Customer Check: BossCockpit1 cross-references the extracted information with existing customer records to check for duplicates or updates.
 - Meeting Summaries: Summarizes the discussions held during the meeting and stores them in the corresponding contact's activity documents in Business Central.
 
-## BossCockpit2 - Sales Quote Analyzer & Item Recommender
+## BossCockpit2 - Sales Quote Email Proposal Generator
 
-BossCockpit2 focuses on analyzing sales quotes in Business Central. It suggests new items that complement the current list, allowing end users to select and add items to the list. This app is designed to enhance the sales quoting process.
+BossCockpit2 extends the sales quote analysis capability to include the generation of email proposals. Similar to BossCockpit3, it suggests new items based on the current list, but it goes a step further by drafting an email proposal to send to the customer.
 
 ### Key Features:
 
-- Sales Quote Analysis: BossCockpit2 analyzes existing sales quotes to understand the context and current list of items.
+- Sales Quote Analysis: Similar to BossCockpit3, BossCockpit2 analyzes sales quotes to understand the current list of items.
+- Item Suggestions: Suggests new items that align with the existing list, optimizing the sales offering.
+- Email Drafting: Uniquely, BossCockpit2 goes a step further by autonomously drafting persuasive emails to propose the newly suggested items to the customer.
+
+## BossCockpit3 - Sales Quote Analyzer & Item Recommender
+
+BossCockpit3 focuses on analyzing sales quotes in Business Central. It suggests new items that complement the current list, allowing end users to select and add items to the list. This app is designed to enhance the sales quoting process.
+
+### Key Features:
+
+- Sales Quote Analysis: BossCockpit3 analyzes existing sales quotes to understand the context and current list of items.
 - Item Suggestions: The application suggests new items that complement the existing list, aiming to enhance the sales offering.
 - User Interaction: End users in Business Central can conveniently review and select suggested items to add to the sales quote.
-
-## BossCockpit3 - Sales Quote Email Proposal Generator
-
-BossCockpit3 extends the sales quote analysis capability to include the generation of email proposals. Similar to BossCockpit2, it suggests new items based on the current list, but it goes a step further by drafting an email proposal to send to the customer.
-
-### Key Features:
-
-- Sales Quote Analysis: Similar to BossCockpit2, BossCockpit3 analyzes sales quotes to understand the current list of items.
-- Item Suggestions: Suggests new items that align with the existing list, optimizing the sales offering.
-- Email Drafting: Uniquely, BossCockpit3 goes a step further by autonomously drafting persuasive emails to propose the newly suggested items to the customer.
 
 ## Contribution
 
